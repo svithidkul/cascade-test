@@ -1,7 +1,56 @@
-div {
+/* div {
     background-color: red;
     color: white;
     font-size: 32px;
     text-align: center;
     font-weight: bold;
+  } 
+  
+  This was for lesson 1.
+  */
+
+  .odd {
+    background-color: salmon;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
   }
+
+  #second {
+    color: blue;
+    font-size: 36px;
+  }
+
+  .third {
+    font-size: 40px;
+  }
+
+  #fourth {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+ .inverted {
+    background-color: black;
+    color: white;
+    
+ }
+
+ .not-inverted {
+    background-color: yellow;
+ }
+
+ .inverted, .not-inverted {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+ }
+
+ .avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px
+}
+
