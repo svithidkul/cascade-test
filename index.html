@@ -4,62 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Methods for Adding CSS</title>
+    <title>Fix the Cascade</title>
     <link rel="stylesheet" href="style.css">
-
-    <style>
-      /* p {
-        background-color: green;
-        color: white;
-        font-size: 18px;
-      } 
-      
-      **This was for lesson 1.
-      */
-    </style>
   </head>
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
-  </body>
+    <p class="para">I'm just a paragraph with extra bold text!</p>
+    <p class="para small-para">I'm a smaller paragraph, also with extra bold text!</p>
 
-  <body>
-    <p class="odd">Number 1 - I'm a class!</p>
-    <div id="second">Number 2 - I'm one ID.</div>
-    <p class="odd third">Number 3 - I'm a class, but cooler!</p>
-    <div id="fourth">Number 4 - I'm another ID.</div>
-    <p class="odd">Number 5 - I'm a class!</p>
-  </body>
+    <button id="confirm-button" class="button confirm">Confirm</button>
+    <button id="cancel-button" class="button cancel">Cancel</button>
 
-  <body>
-    <button class="inverted">Click Me!</button>
-    <button class="not-inverted">No, Click Me!</button>
-  </body>
-
-  <!-- <body>
-    
-    <div>
-      <img class="avatar proportioned" src="https://images.pexels.com/photos/5067133/pexels-photo-5067133.jpeg" alt="Girl smiling">
-      <img class="avatar distorted" src="https://images.pexels.com/photos/5047665/pexels-photo-5047665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Woman sitting">
+    <div class="text">I'm a div with thin text!</div>
+    <div class="text">I'm a div with thin text and a child div!
+      <div class="text child">I'm a smaller child div with extra bold text.</div>
     </div>
-    
-    
-    <div>
-      <img class="original proportioned" src="https://images.pexels.com/photos/5067133/pexels-photo-5067133.jpeg" alt="Girl smiling">
-      <img class="original distorted" src="https://images.pexels.com/photos/5047665/pexels-photo-5047665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Woman sitting">
-    </div> -->
-    <body>
-        <div class="container">
-          <p class="text">This should be styled.</p>
-        </div>
-        <p class="text">This should be unstyled.</p>
-        <p class="text">This should be unstyled.</p>
-        <div class="container">
-          <p class="text">This should be styled.</p>
-          <p class="text">This should be styled.</p>
-        </div>
-      </body>
   </body>
-
 </html>
